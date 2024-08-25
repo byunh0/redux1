@@ -25,7 +25,7 @@ const App = () => {
     <div>
       <h1>ID:{id}, Password:{password}</h1>
  <div>Count:{count}</div>
-
+<div>0이하일때는 감소가 되지 않습니다.</div>
  <button onClick={increase}>증가</button>
  <button onClick={login}>Login</button>
  <button onClick={decrease}>감소</button>
